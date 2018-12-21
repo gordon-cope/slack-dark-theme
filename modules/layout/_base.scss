@@ -1,0 +1,68 @@
+@import "./modules/settings/colours";
+
+body {
+  background: $black;
+  color: $white;
+}
+
+a {
+  color: $blue;
+
+  &:link,
+  &:visited {
+    color: $purple;
+  }
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: $green;
+  }
+}
+
+hr {
+  border-bottom: 1px solid $white;
+  border-top: 1px solid $blue;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: $white;
+}
+
+h1 a {
+  color: $white;
+
+  &:active,
+  &:hover,
+  &:link,
+  &:visited {
+    color: $white;
+  }
+}
+
+.bordered {
+  border: 1px solid $grey;
+}
+
+.top_border {
+  border-top: 1px solid $grey;
+}
+
+.bottom_border {
+  border-bottom: 1px solid $grey;
+}
+
+.left_border {
+  border-left: 1px solid $grey;
+}
+
+.right_border {
+  border-right: 1px solid $grey;
+}
+
+.bullet {
+  color: $yellow;
+}

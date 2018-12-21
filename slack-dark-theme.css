@@ -1,0 +1,68 @@
+/*
+        SLACK DARK THEME CSS   
+                                       
+        authur: gordon cope  
+        version: 1.0.0  
+
+*/
+body {
+  background: #000000;
+  color: #FFFFFF;
+}
+
+a {
+  color: #18B3D6;
+}
+
+a:link, a:visited {
+  color: #C71EC7;
+}
+
+a:hover, a:active, a:focus {
+  color: #4DA818;
+}
+
+hr {
+  border-bottom: 1px solid #FFFFFF;
+  border-top: 1px solid #18B3D6;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #FFFFFF;
+}
+
+h1 a {
+  color: #FFFFFF;
+}
+
+h1 a:active, h1 a:hover, h1 a:link, h1 a:visited {
+  color: #FFFFFF;
+}
+
+.bordered {
+  border: 1px solid #909090;
+}
+
+.top_border {
+  border-top: 1px solid #909090;
+}
+
+.bottom_border {
+  border-bottom: 1px solid #909090;
+}
+
+.left_border {
+  border-left: 1px solid #909090;
+}
+
+.right_border {
+  border-right: 1px solid #909090;
+}
+
+.bullet {
+  color: #F2E557;
+}
+/*# sourceMappingURL=slack-dark-theme.css.map */

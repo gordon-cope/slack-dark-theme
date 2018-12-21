@@ -1,0 +1,58 @@
+::-webkit-scrollbar-track {
+  background: $dark-blue !important;
+  border-left-color: $dark-blue !important;
+  border-right-color: $dark-blue !important;
+  color: $dark-blue !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $light-blue !important;
+  border-left-color: $dark-blue !important;
+  border-right-color: $dark-blue !important;
+  color: $black !important;
+}
+
+::-webkit-scrollbar-corner {
+  background: $black !important;
+}
+
+.supports_custom_scrollbar {
+  #messages_container::after {
+    background: none !important;
+  }
+}
+
+.monkey_scroll_bar {
+  background: $mid-blue;
+}
+
+.monkey_scroll_handle_inner {
+  background: $light-blue;
+  border: 1px solid $light-blue;
+}
+
+.monkey_scroll_bar_native_scrollbar_shim {
+  background: transparent;
+}
+
+#client-ui {
+  .monkey_scroll_bar {
+    background: $mid-blue;
+  }
+
+  .monkey_scroll_handle_inner {
+    background: $light-blue;
+    border: 3px solid $black;
+  }
+}
+
+.c-scrollbar--monkey .c-scrollbar {
+  &__track {
+    background: $mid-blue;
+  }
+
+  &__bar {
+    background: $light-blue;
+    box-shadow: 0 3px 0 $black, 0 -3px 0 $black;
+  }
+}
